@@ -1,0 +1,29 @@
+# 가상환경
+venv/
+
+# Python 캐시 파일
+__pycache__/
+*.py[cod]
+*.pyo
+
+# 환경 변수 파일
+.env
+
+# 운영체제에서 자동 생성되는 파일
+.DS_Store
+Thumbs.db
+
+# VSCode 설정 (옵션)
+.vscode/
+
+# 로그 파일
+*.log
+
+# FAISS 인덱스 저장 시 생길 수 있는 파일 (선택)
+*.faiss
+index/
+
+# 임시 파일
+*.tmp
+*.bak
+*~
